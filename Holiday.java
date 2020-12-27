@@ -1,7 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor. Merry X-mass and happy new year
+/**
+ * @author: Mussie Shumondi 
+ * date : December 25, 2020
+ * This objective of this code is a simple code that aimed to print out a statement 
+ * for holiday wishes which is => "Merry Christmas & Happy New Year Every One! " 
+ * Using arraylist and for loop and if statement
  */
 package holidaywishes;
 
@@ -14,7 +16,10 @@ import java.util.ArrayList;
 public class Holiday {
 
     public void newMethod() {
+        //creating a string array list
         ArrayList<String> set1 = new ArrayList<>();
+        
+        //adding the letter as a string to the list set1
         set1.add("c");
         set1.add("m");
         set1.add("r");
@@ -33,7 +38,6 @@ public class Holiday {
         set1.add("v");
         set1.add("0");
 
-        System.out.println(set1);
         System.out.print(set1.get(1).toUpperCase());
         for (int i = 0; i < 35; i++) {
             if (i == 1 || i == 21 || i == 24 || i == 27 || i == 29 || i == 34) {
@@ -127,7 +131,6 @@ public class Holiday {
         Holiday driver = new Holiday();
         driver.newMethod();
         System.out.print("! \n\n");
-
     }
 
 }
